@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-44dp"
+        tools:layout_editor_absoluteY="-363dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/android_green" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="562dp">
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/btnRed"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:backgroundTint="#E91E1E"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/btnGreen"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:backgroundTint="#4BCA05"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/btnBlue"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:backgroundTint="#214EF3"
+            android:text="Button" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
